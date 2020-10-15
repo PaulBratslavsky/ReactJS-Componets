@@ -6,7 +6,7 @@ import SwitchRoutes from './SwitchRoutes'
 import styles from './styles.module.scss'
 
 const Layout = () => (
-    <div className={styles}>
+    <div className={styles.main}>
         <ComponentsNav />
         <SwitchRoutes routes={AppRoutes} />
     </div>
