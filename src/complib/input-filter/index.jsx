@@ -8,7 +8,8 @@ function InputFilter({collection = [], renderTemplate, searchTerm, keyId}) {
         <div className={styles['input-filter']}>
             <div className={styles['input']}>
                 <input 
-                    type="text" 
+                    type="search"
+                    placeholder="search movies" 
                     value={query} 
                     onChange={(e) => 
                     setQuery(e.target.value)}
